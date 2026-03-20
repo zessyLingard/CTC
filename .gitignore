@@ -1,0 +1,88 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+
+# Exclude graphs and images folders
+graphs/
+images/
+
+# Python cache
+__pycache__/
+
+# Numpy and other data files
+*.npy
+*.pyc
+
+# Text and log files
+*.txt
+*.log
+CHANGELOG
+# Miscellaneous
+res.txt
+timing.txt
+timings.txt
+
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+cceap_client
+cceap_server
+iat_encode
+rand_seq
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directory
+build/
+
+# Editor files
+*~
+.*.swp
+.*.swo
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
